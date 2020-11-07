@@ -1,0 +1,13 @@
+{
+  "name": "lerna",
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "test": "echo 'no tests defined'"
+  }
+}

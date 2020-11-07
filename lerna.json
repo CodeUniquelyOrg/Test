@@ -1,0 +1,17 @@
+{
+  "command": {
+    "publish": {
+      "registry": "https://github.com/codeuniquely/test.git",
+      "conventionalCommits": true,
+      "yes": true,
+      "message": "chore(release): publish",
+      "exact": true
+    }
+  },
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "useWorkspaces": true,
+  "version": "independent"
+}

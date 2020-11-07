@@ -1,0 +1,17 @@
+{
+  "name": "hello",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "esm": "^3.2.25"
+  },
+  "scripts": {
+    "start": "node -r esm src/index.js",
+    "test": "echo 'run tests from root level instead'"
+  }
+}
