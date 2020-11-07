@@ -6,9 +6,11 @@
     "packages/*"
   ],
   "dependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "release-it": "^14.2.1"
   },
   "scripts": {
-    "test": "echo 'no tests defined'"
+    "test": "echo 'no tests defined'",
+    "release": "release-it --dry-run"
   }
 }
